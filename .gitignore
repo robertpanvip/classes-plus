@@ -2,5 +2,6 @@
 /es/
 /lib/
 /bin/
+/dist/
 .idea/
 /.history/
