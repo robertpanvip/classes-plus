@@ -3,7 +3,7 @@ class Deferred<T> {
 
   resolve!: (value: T | PromiseLike<T>) => void;
 
-  reject!: (reason?: any) => void;
+  reject!: (reason?: unknown) => void;
 
   constructor() {
     this.promise = new Promise((resolve, reject) => {
